@@ -5,7 +5,6 @@ import requests
 
 URL = 'https://www.kommersant.ru/search/results'
 
-### Main function
 ### https://github.com/UFOMtters/training.git
 def get_all_links(URL, quary, pages):
     all_refs = []
